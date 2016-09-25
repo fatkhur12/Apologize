@@ -1,0 +1,78 @@
+<html>
+<head>
+<title>Vivi</title>
+<style style="text/css">
+.example1 {
+ height: 50px;	
+ overflow: hidden;
+ position: relative;
+}
+.example1 h1 {
+ position: absolute;
+ width: 100%;
+ height: 100%;
+ margin: 0;
+ line-height: 50px;
+ text-align: center;
+ /* Starting position */
+ -moz-transform:translateX(100%);
+ -webkit-transform:translateX(100%);	
+ transform:translateX(100%);
+ /* Apply animation to this element */	
+ -moz-animation: example1 15s linear infinite;
+ -webkit-animation: example1 15s linear infinite;
+ animation: example1 15s linear infinite;
+}
+/* Move it (define the animation) */
+@-moz-keyframes example1 {
+ 0%   { -moz-transform: translateX(100%); }
+ 100% { -moz-transform: translateX(-100%); }
+}
+@-webkit-keyframes example1 {
+ 0%   { -webkit-transform: translateX(100%); }
+ 100% { -webkit-transform: translateX(-100%); }
+}
+@keyframes example1 {
+ 0%   { 
+ -moz-transform: translateX(100%); /* Firefox bug fix */
+ -webkit-transform: translateX(100%); /* Firefox bug fix */
+ transform: translateX(100%); 		
+ }
+ 100% { 
+ -moz-transform: translateX(-100%); /* Firefox bug fix */
+ -webkit-transform: translateX(-100%); /* Firefox bug fix */
+ transform: translateX(-100%); 
+ }
+}
+</style>
+</head>
+<body style="background:#000">
+
+<div class="example1">
+<h1 style=
+"color:White;text-align:center;font-size:22px">Hi... </h1>
+</div>
+
+<p style="color:#CCC;font-size:12px;text-align:center">Hmm...</p>
+<p style="color:#CCC;font-size:12px;text-align:center">Gak ada niatan sih buat ini, cuma berhubung lagi gak ada kerjaan bikin aja lagian gak susah.</p>
+<p style="color:#CCC;font-size:12px;text-align:center"> Namaku: Fatkhur</p>
+<p style="color:#CCC;font-size:12px;text-align:center">kalau kamu nyari aku, aku tuh orangnya paling gila paling jelek paling bodoh dikelas.Oh ya maaf sebelumnnya kalau dichat aku keliatan aneh atau agresif kalau sama cewek, udah lama gak interaksi sama cewek yang baru kenal jadi kayak gitu,gak wajar seharusnya aku lupa cara interaksi gitu biasa sih inget baru kali ini lupa</p1>
+<p style="color:#CCC;font-size:12px;text-align:center"> Simple web ini link addresnya gak gampang dicari jadi gak usah khawatir ini bakal keliatain public.ini cuma web gak enak ngomong disini panjang lebar.</p>
+<h1 style="color:#CCC;font-size:18px;text-align:center"> Maaf Buat sebelumnnya ya</h1>
+
+<embed src="Music/Olly Murs - Up (Feat. Demi Lovato).mp3" autostart="true" loop="true"
+width="2" height="0">
+</embed>
+<noembed>
+<bgsound src="Music/Olly Murs - Up (Feat. Demi Lovato).mp3" loop="infinite">
+</noembed>
+
+<img src="Pictures/IMG_20160925_020735.jpg" height="200px" width="250">
+<img src="Pictures/IMG_20160925_020759.jpg" height="200px" width="250">
+<img src="Pictures/IMG_20160925_020817.jpg" height="200px" width="250">
+
+</body>
+</html>
+
+
+
